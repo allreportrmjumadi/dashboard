@@ -1,45 +1,14 @@
 <!DOCTYPE html>
-<html lang="id">
+<html>
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>DASHBOARD AREA RM JUMADI CBT</title>
-  <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/9/98/Kota_Bengkulu.png" />
-  <style>
-    html, body {
-      margin: 0;
-      padding: 0;
-      width: 100%;
-      height: 100%;
-      background-color: #eee;
-      overflow: hidden; /* Mencegah scroll ganda */
-    }
-
-    .iframe-container {
-      width: 100%;
-      height: 100dvh; /* Menggunakan dvh agar pas di mobile browser */
-      overflow: hidden;
-    }
-
-    iframe {
-      display: block;
-      width: 100%;
-      height: 100%;
-      border: none;
-    }
-  </style>
+    <title>Dashboard All Report</title>
+    <style>
+        body, html { margin: 0; padding: 0; height: 100%; overflow: hidden; }
+        iframe { width: 100%; height: 100%; border: none; }
+    </style>
 </head>
 <body>
-  <div class="iframe-container">
-    <iframe
-      id="app"
-      src="https://script.google.com/macros/s/AKfycbyY-ct8oSNvuysxLjKSOw9RS4nkK7bDkr3rKj34XQayigcrGIuYSUyUf4rX5OghMaOH/exec"
-      scrolling="yes"
-      allowfullscreen="true"
-      webkitallowfullscreen="true"
-      mozallowfullscreen="true"
-      allow="fullscreen; camera; microphone; display-capture; geolocation;">
-    </iframe>
-  </div>
+    <!-- Ganti tulisan URL_WEB_APP_GAS_ANDA dengan link web app Executable dari App Script -->
+    <iframe src="https://script.google.com/macros/s/AKfycbyY-ct8oSNvuysxLjKSOw9RS4nkK7bDkr3rKj34XQayigcrGIuYSUyUf4rX5OghMaOH/exec"></iframe>
 </body>
 </html>
